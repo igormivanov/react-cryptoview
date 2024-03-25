@@ -1,10 +1,10 @@
  <h1 align="center">Cryptoview</h1>
 
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre o projeto</a> |
- <a href="#-deploy">Deploy</a> |
- <a href="#-pré-requisitos">Pré-requisitos</a> |
- <a href="#-configuração">Configuração</a> 
+ <a href="#sobre-o-projeto">Sobre o projeto</a> |
+ <a href="#deploy">Deploy</a> |
+ <a href="#pré-requisitos">Pré-requisitos</a> |
+ <a href="#configuração">Configuração</a> 
 </p>
 
 ## Sobre o projeto
