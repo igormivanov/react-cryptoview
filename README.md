@@ -1,30 +1,45 @@
-# React + TypeScript + Vite
+ <h1 align="center">Cryptoview</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre o projeto</a> |
+ <a href="#-deploy">Deploy</a> |
+ <a href="#-pré-requisitos">Pré-requisitos</a> |
+ <a href="#-configuração">Configuração</a> 
+</p>
 
-Currently, two official plugins are available:
+## Sobre o projeto
+Projeto desenvolvido em React com TypeScript, nele é possível visualizar as 10 maiores criptomoedas e suas respectivas variações de mercado, além de ter a possibilidade de se conectar com a MetaMask e conferir seu saldo da carteira.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deploy
+Visualização do projeto: https://react-cryptoview.vercel.app/
 
-## Expanding the ESLint configuration
+## Pré-requisitos
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
 
-- Configure the top-level `parserOptions` property like this:
+* [Git](https://git-scm.com)
+* [NodeJS](https://nodejs.org/en/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Configuração
+Clone do Projeto:
+```
+https://github.com/igormivanov/react-cryptoview.git
+```
+Instale as dependências
+```
+npm install ou yarn install.
+```
+### GeckoAPI
+
+Antes de executar o projeto, para que consiga rodar ele localmente, será necessário seguir os seguintes passos:
+- Acesse https://www.coingecko.com/pt
+- Crie uma conta e gere a sua chave da api.
+- Agora crie um arquivo .env seguindo os padrões do .env.example e adicione sua chave da api
+
+
+Execução do React em ambiente de desenvolvimento
+```
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
